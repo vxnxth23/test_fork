@@ -1,9 +1,7 @@
 print("Hello, World!")
-print("This is a demo script.")
+print("This is a simple script.")
 
-a = 10
-b = 20
-
-sum = a + b
-
-print("Sum =", sum)
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+sum = int(a) + int(b)
+print("The sum of the two numbers is:", sum)
